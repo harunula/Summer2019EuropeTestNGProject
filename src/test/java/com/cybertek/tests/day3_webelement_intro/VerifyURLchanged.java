@@ -19,7 +19,7 @@ public class VerifyURLchanged {
         driver.get("http://practice.cybertekschool.com/forgot_password");
 
 
-        //enter any email
+        //enter any valid email
         WebElement emailInput = driver.findElement(By.name("email"));
         //sendKeys() --> send keyboard actions to webelement/ enters given text
         emailInput.sendKeys("email@gmail.com");
@@ -35,6 +35,7 @@ public class VerifyURLchanged {
             System.out.println("PASS");
         }else{
             System.out.println("FAIL");
+
         }
 
         //close
