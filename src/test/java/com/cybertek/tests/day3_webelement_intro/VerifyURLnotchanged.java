@@ -47,6 +47,7 @@ public class VerifyURLnotchanged {
                 System.out.println("PASS");
             }else{
                 System.out.println("FAIL");
+
             }
 
             // close the driver
