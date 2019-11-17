@@ -17,15 +17,21 @@ public class PositiveTestCase {
         WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.get("https://qa1.vytrack.com/user/login");
+
         //enter username(storemanager57)
         driver.findElement(By.id("prependedInput")).sendKeys("storemanager57");
+
         //enter pasword(UserUser123)
         driver.findElement(By.cssSelector("#prependedInput2")).sendKeys("UserUser123");
         Thread.sleep(1500);
+
         //click
         driver.findElement(By.cssSelector("#_submit")).click();
+
         String expectedTitle="Dashboard";
-        String actualTitle=driver.getTitle();
+
+        String actualTitle = driver.getTitle();
+
         if(actualTitle.equals(expectedTitle)){
             System.out.println("PASS");
         }else{
