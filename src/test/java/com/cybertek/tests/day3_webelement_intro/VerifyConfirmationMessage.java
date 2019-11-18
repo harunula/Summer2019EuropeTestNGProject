@@ -25,6 +25,7 @@ public class VerifyConfirmationMessage {
 
         //navigate to website
         driver.get("http://practice.cybertekschool.com/forgot_password");
+        //
 
         // enter any email
         WebElement emailInputbox = driver.findElement(By.name("email"));
