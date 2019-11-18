@@ -15,6 +15,6 @@ public class basic_navigation {
         //open browser
         driver.get("https://www.google.com");
         System.out.println(driver.getTitle());
-
+//
     }
 }
