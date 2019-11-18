@@ -29,6 +29,6 @@ public class amazon {
         System.out.println(resultText.getText());
 
     }
-    //
+
 
 }
