@@ -20,6 +20,6 @@ public class IdLocatorTest {
         dontClickButton.click();
         //close the browser
         driver.quit();
-
+//
     }
 }

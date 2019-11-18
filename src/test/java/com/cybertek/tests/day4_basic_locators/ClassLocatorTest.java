@@ -22,7 +22,7 @@ public class ClassLocatorTest {
         //lazy way
         System.out.println(driver.findElement(By.className("h3")).getText());
         //note: if there is a space in the class attribute value, we CANNOT use it.
-
+//
 
 
     }
